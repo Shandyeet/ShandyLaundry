@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>LaundrySatSet</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+
+    <div class="container nav-wrapper">
+
+      <div class="logo">
+        <i class="fas fa-wind"></i>
+        <span>LaundrySatSet</span>
+      </div>
+
+      <div class="nav-menu">
+        <a href="#beranda">Beranda</a>
+        <a href="#harga">Harga</a>
+        <a href="#pesan">Pesan</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+
+      <button id="themeToggle" class="theme-toggle">
+        <i class="fas fa-moon"></i>
+      </button>
+
+    </div>
+
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="beranda">
+
+    <div class="hero-bg">
+      <div class="bubble b1"></div>
+      <div class="bubble b2"></div>
+      <div class="bubble b3"></div>
+      <div class="bubble b4"></div>
+    </div>
+
+    <div class="container hero-container">
+
+      <div class="hero-text">
+
+        <span class="hero-badge">
+          <i class="fas fa-star"></i>
+          Laundry Cepat & Modern
+        </span>
+
+        <h1>
+          LaundrySatSet
+          <span>Bersih, Wangi & SatSet!</span>
+        </h1>
+
+        <p>
+          Laundry modern dengan layanan cepat,
+          terpercaya, dan pemesanan langsung
+          melalui WhatsApp.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#pesan" class="btn-primary">
+            <i class="fab fa-whatsapp"></i>
+            Pesan Sekarang
+          </a>
+
+          <a href="#harga" class="btn-secondary">
+            Lihat Harga
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="hero-image">
+
+        <div class="hero-card float">
+          <i class="fas fa-clock"></i>
+
+          <div>
+            <strong>Express 6 Jam</strong>
+            <p>Cepat & Tepat Waktu</p>
+          </div>
+        </div>
+
+        <div class="washing-machine">
+
+          <div class="machine-body">
+
+            <div class="machine-door">
+
+              <div class="door-glass">
+                <div class="clothes-spin"></div>
+              </div>
+
+            </div>
+
+            <div class="machine-panel">
+              <div class="panel-dot"></div>
+              <div class="panel-dot green"></div>
+              <div class="panel-knob"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="hero-card float2 second-card">
+          <i class="fas fa-truck"></i>
+
+          <div>
+            <strong>Gratis Jemput</strong>
+            <p>Minimal Order Tertentu</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- HARGA -->
+  <section class="section" id="harga">
+
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Daftar Harga</h2>
+        <p>Harga transparan dan mudah dipahami</p>
+      </div>
+
+      <!-- PAKAIAN -->
+      <div class="table-wrapper">
+
+        <h3>Laundry Pakaian</h3>
+
+        <table>
+
+          <thead>
+            <tr>
+              <th>Layanan</th>
+              <th>Harga</th>
+              <th>Estimasi</th>
+            </tr>
+          </thead>
+
+          <tbody>
+
+            <tr>
+              <td>Cuci Reguler</td>
+              <td>Rp 7.000/kg</td>
+              <td>24 Jam</td>
+            </tr>
+
+            <tr>
+              <td>Cuci Express</td>
+              <td>Rp 12.000/kg</td>
+              <td>6 Jam</td>
+            </tr>
+
+            <tr>
+              <td>+ Setrika</td>
+              <td>+ Rp 3.500/kg</td>
+              <td>+ 6 Jam</td>
+            </tr>
+
+          </tbody>
+
+        </table>
+
+      </div>
+
+      <!-- SPESIAL -->
+      <div class="table-wrapper">
+
+        <h3>Laundry Rumah & Spesial</h3>
+
+        <table>
+
+          <thead>
+            <tr>
+              <th>Layanan</th>
+              <th>Harga</th>
+              <th>Estimasi</th>
+            </tr>
+          </thead>
+
+          <tbody>
+
+            <tr>
+              <td>Sprei & Bed Cover</td>
+              <td>Rp 25.000/item</td>
+              <td>1 Hari</td>
+            </tr>
+
+            <tr>
+              <td>Cuci Sepatu</td>
+              <td>Rp 30.000/pasang</td>
+              <td>2 Hari</td>
+            </tr>
+
+            <tr>
+              <td>Cuci Karpet</td>
+              <td>Rp 15.000/m²</td>
+              <td>2-3 Hari</td>
+            </tr>
+
+          </tbody>
+
+        </table>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FORM -->
+  <section class="section" id="pesan">
+
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Form Pemesanan</h2>
+        <p>Isi data dengan benar sebelum mengirim ke WhatsApp</p>
+      </div>
+
+      <div class="form-card">
+
+        <form id="orderForm">
+
+          <div class="form-group">
+
+            <label>Nama Lengkap</label>
+
+            <input
+              type="text"
+              id="nama"
+              placeholder="Contoh: Budi Santoso"
+              required
+            />
+
+          </div>
+
+          <div class="form-group">
+
+            <label>Nomor WhatsApp</label>
+
+            <input
+              type="tel"
+              id="wa"
+              placeholder="Contoh: 081234567890"
+              required
+            />
+
+          </div>
+
+          <div class="form-group">
+
+            <label>Alamat</label>
+
+            <textarea
+              id="alamat"
+              placeholder="Contoh: Jl. Melati No. 12"
+              required
+            ></textarea>
+
+          </div>
+
+          <div class="form-grid">
+
+            <div class="form-group">
+
+              <label>Laundry Pakaian</label>
+
+              <select id="layananPakaian">
+
+                <option value="">
+                  Tidak Memilih
+                </option>
+
+                <option value="7000|24 Jam">
+                  Cuci Reguler
+                </option>
+
+                <option value="12000|6 Jam">
+                  Cuci Express
+                </option>
+
+              </select>
+
+              <div class="checkbox-group">
+
+                <label class="checkbox-label">
+
+                  <input
+                    type="checkbox"
+                    id="setrika"
+                  />
+
+                  Tambah Setrika
+                  (+ Rp 3.500/kg & +6 Jam)
+
+                </label>
+
+              </div>
+
+            </div>
+
+            <div class="form-group">
+
+              <label>Estimasi Berat</label>
+
+              <input
+                type="number"
+                id="berat"
+                placeholder="Contoh: 3 kg"
+              />
+
+            </div>
+
+          </div>
+
+          <!-- SPESIAL -->
+          <div class="special-box">
+
+            <h3>Tambahan Laundry Rumah & Spesial</h3>
+
+            <div class="form-grid">
+
+              <div class="form-group">
+
+                <label>Jenis Layanan</label>
+
+                <select id="layananSpesial">
+
+                  <option value="">
+                    Tidak Memilih
+                  </option>
+
+                  <option value="25000|1 Hari">
+                    Sprei & Bed Cover
+                  </option>
+
+                  <option value="30000|2 Hari">
+                    Cuci Sepatu
+                  </option>
+
+                  <option value="15000|2-3 Hari">
+                    Cuci Karpet
+                  </option>
+
+                </select>
+
+              </div>
+
+              <div class="form-group">
+
+                <label>Jumlah / Ukuran</label>
+
+                <input
+                  type="number"
+                  id="jumlahSpesial"
+                  placeholder="Contoh: 2 item"
+                />
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- ESTIMASI -->
+          <div class="summary-box">
+
+            <h3>Estimasi Total</h3>
+
+            <p id="estimasiHarga">
+              Estimasi Harga: Rp 0
+            </p>
+
+            <p id="estimasiWaktu">
+              Estimasi Waktu: -
+            </p>
+
+          </div>
+
+          <button type="submit" class="submit-btn">
+            <i class="fab fa-whatsapp"></i>
+            Kirim ke WhatsApp
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="kontak">
+
+    <div class="container footer-wrapper">
+
+      <div>
+        <h3>LaundrySatSet</h3>
+        <p>Laundry modern, cepat, dan terpercaya.</p>
+      </div>
+
+      <div class="social-links">
+
+        <span class="social-disabled">
+          <i class="fab fa-instagram"></i>
+        </span>
+
+        <span class="social-disabled">
+          <i class="fab fa-tiktok"></i>
+        </span>
+
+        <a
+          href="https://wa.me/6281234567890"
+          target="_blank"
+        >
+          <i class="fab fa-whatsapp"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
